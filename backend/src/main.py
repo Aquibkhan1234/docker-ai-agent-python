@@ -11,4 +11,4 @@ if not API_KEY:
 
 @app.get("/")
 def read_index():
-    return{"Hello": "World again", "project":MY_PROJECT, "api_key":API_KEY}    
+    return{"Hello": "World again", "project":MY_PROJECT}    
